@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Plus Center",
+    "description": "Ky market permban 100% produkte vendore.",
+    "address": {
+      "city": "ferizaj",
+      "street": "Besim Regjepi",
+      "zip": ""
+    }
+  },
+  {
+    "name": "Albani Market",
+    "description": "Ky market permban 100% produkte vendore.",
+    "address": {
+      "city": "Gjilan",
+      "street": "",
+      "zip": ""
+    }
+  },
+  {
+    "name": "Bini-Top Market",
+    "description": "Ky market permban 100% produkte vendore.",
+    "address": {
+      "city": "Prishtine",
+      "street": "Kolovice",
+      "zip": "10000"
+    }
+  },
+  {
+    "name": "Bini-Top Market",
+    "description": "Ky market permban 100% produkte vendore.",
+    "address": {
+      "city": "Prishtine",
+      "street": "Kodra e trimave",
+      "zip": "10000"
+    }
+  }
+]

@@ -2,8 +2,20 @@ version: "3"
 
 services:
   web:
-    build: .
+    image: node
     ports:
       - 8090:3000
     volumes:
-      - .:/home/appuser/app
+      - .:/app
+    working_dir: /app
+    restart: always
+    depends_on:
+      - package_installer
+    command: npm start
+
+  package_installer:
+    image: node
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: npm install
